@@ -45,5 +45,7 @@ takes ~650–840 s of the 1,800 s wall budget.
 node <kit>/cli/makefun.mjs compress src.py --out main.py
 ```
 
-`main.py` must stay under 4,096 bytes (currently 2,972). `src.py` lives
+`main.py` must stay under 4,096 bytes (currently 3,072). The packed file
+was verified by running a full practice trial on it: trial 0, Elo 1654
+(4W 2D 0L), identical to the uncompressed engine. `src.py` lives
 in this folder but is not committed. MIT licensed.
